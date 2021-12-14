@@ -97,6 +97,9 @@ button {
 .header-nav {
   background-color: #fff;
 }
+.header-nav .spacing {
+  padding-right: 5px;
+}
 .top-header-text,
 .top-header ul li {
   color: #ffffff;
@@ -1006,6 +1009,7 @@ button {
   font-weight: 500;
   margin-bottom: 59px;
 }
+
 .button {
   display: block;
   padding: 15px 40px;
@@ -1026,6 +1030,9 @@ button {
 }
 .button:hover a {
   color: #fff;
+}
+.slider-content button {
+  padding: 11.5px 44.5px;
 }
 
 /* dot silder */
@@ -1229,12 +1236,15 @@ button {
   padding: 20px;
   text-align: left;
   border-radius: 0px 0px 8px 8px;
+  line-height: 1;
 }
 .product-item span {
+  display: inline-block;
   font-size: 12px;
   line-height: 15px;
   font-weight: 600;
   color: #00b853;
+  margin-bottom: 4px;
 }
 .icon-start {
   line-height: 1;
@@ -1258,7 +1268,7 @@ button {
   font-family: "Dosis";
   font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 18px;
 }
 .product-item-footer p span {
   font-size: 12px;
@@ -1304,7 +1314,7 @@ button {
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translate(-20px, -71%);
+  transform: translate(-20px, -61%);
   opacity: 0;
   visibility: hidden;
 }
@@ -1314,6 +1324,7 @@ button {
 .action-links a i {
   border: 1px solid #e6ebf0;
   color: #9999b8;
+  background-color: #fff;
   padding: 12px;
   border-radius: 100%;
   font-size: 14px;
@@ -1321,6 +1332,7 @@ button {
 .action-links a:hover i {
   background-color: #96ae00;
   color: #fff;
+  border: unset;
   transition: linear 0.3s;
 }
 .product-content:hover .action-links {
@@ -1416,6 +1428,7 @@ button {
   color: #2d2a6e;
   border-bottom: 1px dashed #c2c2d3;
   padding-bottom: 6px;
+  text-transform: uppercase;
 }
 .foryou-footer p {
   font-family: "Quicksand";
@@ -1565,12 +1578,12 @@ button {
 }
 .deal-text p:last-child {
   font-family: "Dosis";
-  font-size: 11px;
+  font-size: 18px;
   font-weight: 600;
   margin: 20px 0 40px;
 }
 .deal-text p:last-child strong {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
 }
 .deal-text p:last-child span {
@@ -1652,7 +1665,7 @@ button {
   border-top-right-radius: 10px;
 }
 .blog-container {
-  padding: 20px 30px;
+  padding: 30px;
 }
 .blog-menu {
   display: flex;
