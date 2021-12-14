@@ -1199,11 +1199,6 @@ button {
   width: 178px;
   height: 178px;
 }
-.product-img .action-links a {
-  width: 36px;
-  height: 36px;
-  margin-bottom: 5px;
-}
 .stick {
   position: absolute;
   top: 20px;
@@ -1314,7 +1309,7 @@ button {
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translate(-20px, -61%);
+  transform: translate(-20px, -69%);
   opacity: 0;
   visibility: hidden;
 }
