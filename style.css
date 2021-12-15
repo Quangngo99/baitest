@@ -1262,11 +1262,11 @@ button {
 .product-item p {
   font-family: "Dosis";
   font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
 }
 .product-item-footer p span {
-  font-size: 12px;
+  font-size: 14px;
 }
 .product-item-footer p strong {
   color: #ea0d42;
@@ -1668,6 +1668,10 @@ button {
   display: flex;
   gap: 0 10px;
   flex-wrap: wrap;
+  margin-bottom: 7px;
+}
+.blog-menu li {
+  line-height: 1;
 }
 .blog-menu li span {
   font-size: 11px;
@@ -1771,7 +1775,7 @@ button {
   color: #96ae00;
 }
 .social {
-  margin: 36px 0;
+  margin-top: 60px;
 }
 .social-icon {
   display: flex;
@@ -1791,7 +1795,7 @@ button {
   transition: linear 0.2s;
 }
 .time-open {
-  margin: 30px 0;
+  margin-top: 50px;
 }
 .time-open p {
   line-height: 20px;

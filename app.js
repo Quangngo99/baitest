@@ -20,9 +20,9 @@ $(document).ready(function () {
     slidesToShow: 6,
     slidesToScroll: 6,
     prevArrow:
-      '<div class="slick-prev"><i class="fa fa-angle-left slick-arrow" aria-hidden="true"></i></div>',
+      '<div class="slick-prev"><i class="icon-chevron-left slick-arrow" aria-hidden="true"></i></div>',
     nextArrow:
-      '<div class="slick-next"><i class="fa fa-angle-right slick-arrow" aria-hidden="true"></i></div>',
+      '<div class="slick-next"><i class="icon-chevron-right slick-arrow" aria-hidden="true"></i></div>',
     responsive: [
       {
         breakpoint: 1024,
@@ -52,9 +52,9 @@ $(document).ready(function () {
     slidesToShow: 4,
     slidesToScroll: 2,
     prevArrow:
-      '<div class="slick-prev"><i class="fa fa-angle-left slick-arrow" aria-hidden="true"></i></div>',
+      '<div class="slick-prev"><i class="icon-chevron-left slick-arrow" aria-hidden="true"></i></div>',
     nextArrow:
-      '<div class="slick-next"><i class="fa fa-angle-right slick-arrow" aria-hidden="true"></i></div>',
+      '<div class="slick-next"><i class="icon-chevron-right slick-arrow" aria-hidden="true"></i></div>',
     responsive: [
       {
         breakpoint: 1024,
