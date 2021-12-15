@@ -123,6 +123,24 @@
   .social-icon i {
     font-size: 20px;
   }
+  .food-product .slick-prev {
+    top: 35%;
+  }
+  .food-product .slick-next {
+    top: 35%;
+  }
+  .food-product .slick-list {
+    height: 300px;
+  }
+  .foryou-wrap {
+    margin-top: 30px;
+  }
+  .blog-menu {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
 }
 @media (max-width: 1199px) {
   .top-header-text,
