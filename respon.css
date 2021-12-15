@@ -123,14 +123,8 @@
   .social-icon i {
     font-size: 20px;
   }
-  .food-product .slick-prev {
-    top: 35%;
-  }
-  .food-product .slick-next {
-    top: 35%;
-  }
   .food-product .slick-list {
-    height: 300px;
+    height: 338px;
   }
   .foryou-wrap {
     margin-top: 30px;
