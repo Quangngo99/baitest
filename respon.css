@@ -151,6 +151,9 @@
   }
 }
 @media (max-width: 1199px) {
+  .slider .slick-list {
+    height: 400px;
+  }
   .top-header-text,
   .top-header ul li {
     font-size: 10px;
