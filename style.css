@@ -707,6 +707,10 @@ button {
 .nav-icon-list .icon {
   margin-left: 10px;
 }
+==== .nav-icon-list .icon i::before {
+  content: "\ea59";
+  font-family: "icon-dukamarket" !important;
+}
 .bag-icon span {
   position: absolute;
   top: -4px;

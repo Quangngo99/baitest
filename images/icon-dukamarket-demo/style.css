@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'icon-dukamarket';
-  src:  url('fonts/icon-dukamarket.eot?yk7d8s');
-  src:  url('fonts/icon-dukamarket.eot?yk7d8s#iefix') format('embedded-opentype'),
-    url('fonts/icon-dukamarket.ttf?yk7d8s') format('truetype'),
-    url('fonts/icon-dukamarket.woff?yk7d8s') format('woff'),
-    url('fonts/icon-dukamarket.svg?yk7d8s#icon-dukamarket') format('svg');
+  font-family: "icon-dukamarket";
+  src: url("fonts/icon-dukamarket.eot?yk7d8s");
+  src: url("fonts/icon-dukamarket.eot?yk7d8s#iefix") format("embedded-opentype"),
+    url("fonts/icon-dukamarket.ttf?yk7d8s") format("truetype"),
+    url("fonts/icon-dukamarket.woff?yk7d8s") format("woff"),
+    url("fonts/icon-dukamarket.svg?yk7d8s#icon-dukamarket") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icon-dukamarket' !important;
+  font-family: "icon-dukamarket" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
